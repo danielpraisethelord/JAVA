@@ -1,0 +1,6 @@
+Se necesita que nuestras clases no dependan de otro tipo de clases
+de forma intrínseca
+Es decir tiene dos claves principales, la primera es que las clases
+de alto nivel no tienen que depender de las clases de bajo nivel, si no
+de sus abstracciones; la segunda es que las abstracciones no tienen que
+depender de los detalles, si no que los detalles dependan de las abstracciones
