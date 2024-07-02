@@ -1,0 +1,5 @@
+Por norma general, tendemos a que tengamos una interfaz con multiples metodos
+que tengamos que implementar, este principio nos dice que es mas adecuado
+que podamos separar lo que son la interfaz con multiples metodos que tengamos
+que implementar a diferentes interfaces en la cual delegemos que tipo de funcionalidad
+estamos esperando segun la interfaz
