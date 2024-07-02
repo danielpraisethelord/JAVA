@@ -1,0 +1,7 @@
+Si se tiene una clase A que es de subtipo B, los objetos de tipo B de un programa
+pueden sustituirse por obejtos de tipo A sin alterar ninguna de las propiedades deseables
+de este programa
+Teniendo una clase A que es hija (o implementa) una clase B debemos ser capaces de 
+sustituir la clase A por otra clase que puede ser C (hija/implementa la clase B),
+y al intercambiar A y C no debería dar ningún tipo de problema a la hora de susituir 
+ambas clases

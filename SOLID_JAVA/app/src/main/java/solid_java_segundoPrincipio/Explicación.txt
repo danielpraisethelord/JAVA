@@ -1,0 +1,6 @@
+Todas las clases que tengamos con lógica de negocio, tenemos que tener
+que nuestras clases sean abiertas a extensiones, pero cerradas a 
+modificaciones 
+Podemos meterle nuevos métodos a nuestra clase o nuevas formas de 
+realizar logica de negocio, pero esta lógica de negocio debe quedarse así
+y no debe modificarse después
