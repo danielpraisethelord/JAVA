@@ -1,0 +1,29 @@
+Interfaz Servicio:
+Define un contrato (ejecutar) que cualquier implementación del servicio debe cumplir. 
+Esto permite que Cliente dependa de la abstracción (Servicio) en lugar de una implementación específica.
+
+Clase ServicioImpl:
+Proporciona una implementación concreta del servicio, implementando el método ejecutar.
+
+Clase Cliente:
+Depende de Servicio para realizar su operación. La dependencia se inyecta a través del constructor, 
+lo que permite que la instancia de Cliente reciba una implementación de Servicio sin crearla directamente.
+
+Clase Main:
+Demuestra cómo se configura la inyección de dependencias. Primero se crea una instancia de ServicioImpl, 
+luego se inyecta esta instancia en el constructor de Cliente. Finalmente, se llama al método realizarOperacion de Cliente, 
+que utiliza el servicio inyectado.
+
+Ventajas del Patrón de Inyección de Dependencias
+Desacoplamiento:
+Facilita la separación de responsabilidades y mejora la modularidad al permitir que las clases dependan de abstracciones 
+en lugar de implementaciones concretas.
+
+Facilidad de Pruebas:
+Facilita la escritura de pruebas unitarias, ya que se pueden inyectar dependencias falsas (mocks) en lugar de dependencias reales.
+
+Mantenibilidad:
+Al reducir las dependencias directas entre clases, el código se vuelve más fácil de mantener y extender.
+
+Reutilización:
+Permite reutilizar las implementaciones de servicios en diferentes contextos sin modificar el cliente.
